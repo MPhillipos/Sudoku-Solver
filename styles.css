@@ -1,19 +1,23 @@
+body{
+  background-color: #eefcff;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15vh;
+    padding-top: 7vh;
 }
 
 #sudoku-grid {
   border-collapse: collapse;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 #sudoku-grid td {
   border: 1px solid black;
-  width: 30px;
-  height: 30px;
+  width: 7vh;
+  height: 7vh;
   text-align: center;
 }
 
